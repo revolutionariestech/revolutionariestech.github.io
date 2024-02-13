@@ -1,0 +1,136 @@
+/* Template formatting */
+
+/* Variable static colors */
+:root {
+    --sidebar_bg-color: rgb(78, 81, 86);
+    --sidebar_hover-color: #f1f1f1;
+    --sidebar_link-color: #9f9f9f;
+    --header_bg-color: #184958;
+}
+
+/* side bar formatting */
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--sidebar_bg-color);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color: var(--sidebar_link-color);
+    display: block;
+}
+
+.sidebar a:hover {
+    color: var(--sidebar_hover-color);
+}
+
+
+/* main page content */
+.main {
+    /* Make sure to account for the sidebar width */
+    margin-left: 160px;
+    padding: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--sidebar_bg-color);
+}
+
+/* main body content formatting */
+.main_header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--sidebar_bg-color);
+
+    /* background box */
+    background-color: rgb(180, 180, 180);
+    padding: 20px;
+    margin-right: 60px;
+}
+
+/* Top header formatting */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: var(--header_bg-color);
+    color: white;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 80px;
+    position: relative;
+    width: 100%;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+
+/* misc div classes */
+.last_updated {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+
+/* Modal formatting */
+.modal {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    animation: fadeIn 0.3s ease forwards;
+}
+.modal-content {
+    margin: auto;
+    background-color: var(--sidebar_link-color);
+    padding: 20px;
+    border: 2px solid var(--header_bg-color);
+    width: 100%;
+    position: absolute; /* Position it relative to the modal */
+    /*transform: translate(-50%, -100%); Center the modal */
+    max-width: fit-content;
+    animation: slideIn 0.3s ease forwards;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: grab;
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+  
+@keyframes slideIn {
+    from { transform: translate(-50%, -70%); }
+    to { transform: translate(0%, 0%); }
+}
