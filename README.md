@@ -29,11 +29,12 @@ As stated in the discord announcement, I am hoping to start with html basics thi
 - about_us.html
 - projects.html
 - socials.html
+
 and you can get started on one of them if you have the time.
 
-I am hoping to flesh out the content of each page (making any features you see fit), using basic html tags. You can choose to do some basic CSS styling on your file, but please know that it may need to be changed or overriden when we develop an integrated style across the whole website later.
+I am hoping to get the content of each page done (where you can design the page and implement any features as you see fit), using basic html tags. You can choose to do some basic CSS styling on your file, but please know that it may need to be changed or overriden when we develop an integrated style across the whole website later.
 
-You can also push your work to github if you would like, but be careful because if you change some files other than what you are working on, it may unintentionally override someone elses work.
+You can also push your work to github if you would like, but be careful because if you change some files other than the one that you're working on, it may unintentionally override someone elses work.
 
 > Again, **no pressure** on getting anything done; if you haven't even started by Monday next week, that's ok too.
 
@@ -60,10 +61,9 @@ Its important to start with the basics of HTML before getting into style. Here's
 </html>
 ~~~
 
-Introducing style...
-CSS (Cascading Style Sheets) brings the HTML to life. It works through classes that can be applied to HTML tags
+_Introducing style..._
 
-`<div>` classes are the containers for CSS classes, and are super helpful to create layouts:
+CSS (Cascading Style Sheets) brings the HTML to life. It works through classes that can be applied to HTML tags. `<div>` classes are the containers for CSS classes, and are super helpful to create layouts:
 ~~~
 <div class="myClass">Hello, World!</div>
 ~~~
@@ -80,8 +80,6 @@ Then, in CSS, you can define `myClass` with style:
 
 
 ## Committing and Pushing your Work:
-
-**NOTE! You won't be doing this the first couple of weeks, so that we avoid merge conflicts on the repo**
 
 To get your files on the public github repo, you need to first `stage` the files you want to add, `commit` the changes, then `push` them.
 
@@ -102,7 +100,7 @@ git status
 ~~~
 this is a quick way to check what files you are going to commit, to make sure you didn't miss any.
 
-> ONLY when you're ready to publish your work for certain, use:
+**ONLY** when you're ready to publish your work for certain, use:
 ~~~
 git commit -m "add a commit message!"
 ~~~
