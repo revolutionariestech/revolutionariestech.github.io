@@ -37,6 +37,7 @@ I am hoping to get the content of each page done (where you can design the page 
 You can also push your work to github if you would like, but be careful because if you change some files other than the one that you're working on, it may unintentionally override someone elses work.
 
 > Again, **no pressure** on getting anything done; if you haven't even started by Monday next week, that's ok too.
+> DM @Amartya or @Ian N. if you have any questions.
 
 ## HTML/CSS Tips and Tricks
 
