@@ -127,3 +127,8 @@ git pull
 Make sure that your local directory doesn't have an newer version of the same file before git pulling, or the pull will fail (let's say, if you modified index.html, and then tried to pull an older version from github). If this happens, do either of these:
 - First copy any changes you have made to the affected file, and save it somewhere safe (if you have the git VSCode extension, changes should be highlighted right in the IDE). Then, run the command `git reset --hard origin`. _This will wipe all changes on your local device, so make sure you have saved all your changes to somewhere safe beforehand. Trust me I learned the hard way..._ Then, do `git pull origin main` again.
 - Ping @Amartya or @Ian N. on Discord so one of us to help resolve your merge conflict
+
+
+## Any Questions??
+
+DM @Amartya or @Ian N. on discord if you need any help.
