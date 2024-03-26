@@ -25,10 +25,11 @@ Have a look at the `index.html` file for examples on how to use the various HTML
 **Possible (optional) deliverables for next meeting, Monday 03/25:**
 > Get started if you can, but its better to prioritize your classwork. 
 
-As stated in the discord announcement, I am hoping to start with html basics this week. In the `website-project` thread on discord, vote for which of the 3 .html file you would like to work on:
+As stated in the discord announcement, I am hoping to start with html basics this week. In the `website-project` thread on discord, vote for which of the 4 .html file you would like to work on:
 - about_us.html
-- projects.html
-- socials.html
+- ~~projects.html~~
+- ~~socials.html~~
+- members_list.html
 
 and you can get started on one of them if you have the time.
 
