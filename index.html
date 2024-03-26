@@ -4,36 +4,58 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- <title> tags set the name in the little tab at the top of the browser -->
         <title>revTech Home</title>
-        <!-- Don't worry about styling for now, but this is how to link a CSS stylesheet VVV-->
-        <!--link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Welcome to revolutionariesTech!</h1>
-        <p>
-            In the world of computer science, experience speaks louder than words.
-            <p>
-            Our club equips computer science majors with the experience gained from engaging in real-world projects, fostering both professional growth and collaborative learning. 
-            These projects on your resume stand as proof of your technical skills, setting you apart from the crowd. 
-            </p>
-            <p>
-            By working collaboratively, you'll gain insights into diverse problem-solving approaches, enhancing your ability to work in a team—a skill highly valued in professional settings.  
-            Whether you're a seasoned coder or just starting, our projects and support cater to various skill levels, providing a supportive environment for continuous learning.
-            </p>
-        </p>
-        <!-- <a> tags link a website (or another page) ; a link to about_us.html might look like: href="/about_us.html" -->
-        <p><a href="https://gwu.campuslabs.com/engage/organization/revtech">Contact us!</a></p>
-        <h1>Our Prior and Current Projects 👀</h1>
-        <p>
-            <!-- <ul> tags (unordered list) create a bulleted list -->
-            <ul>
-                <!-- <li> tags are a list item -->
-                <li>Building this Website from Scratch!</li>
-            </ul>
-        </p>
-        <!-- <i> tags make text italic -->
-        <h3>Will <i>your project</i> be the next success story?</h3>
+        <div class="entity_container">
+            <!-- create the george washington scrolling header -->
+            <div class="parallax">
+                <div class="caption"><span class="slogan">revTech</span></div>
+            </div>
+
+            <!-- Topnav -->
+            <div class="topnav" style="position:fixed; top: 0px; transition: top 0.3s; z-index: 1000;">
+                <a class="active" href="#">Home</a>
+                <a href="about_us.html">About Us</a>
+                <a href="socials.html">Social Links</a>
+                <a href="projects.html">Our Projects</a>
+            </div>
+
+            <div class="card">
+                <h1 style="padding-top:30px; padding-bottom:30px; font-family:'Courier New', Courier, monospace;">Welcome to <span class="slide_text">revolutionariesTech!</span></h1>
+                <div class="paragraph">
+                    <p>
+                        In the world of computer science, experience speaks louder than words.
+                        <p>
+                        Our club equips computer science majors with the experience gained from engaging in real-world projects, fostering both professional growth and collaborative learning. 
+                        These projects on your resume stand as proof of your technical skills, setting you apart from the crowd. 
+                        </p>
+                        <p>
+                        By working collaboratively, you'll gain insights into diverse problem-solving approaches, enhancing your ability to work in a team—a skill highly valued in professional settings.  
+                        Whether you're a seasoned coder or just starting, our projects and support cater to various skill levels, providing a supportive environment for continuous learning.
+                        </p>
+                    </p>
+                </div>
+                <div class="main contact">
+                    <p><button class="standard_button" href="https://gwu.campuslabs.com/engage/organization/revtech">Contact us!</button></p>
+                </div>
+                
+                <div class="sliced_bg">
+                    <div class="sliced_card">
+                        <div class="sliced_content">
+                            <div class="h1_header">Our Prior and Current Projects 👀</div>
+                            <div class="paragraph" style="padding:0px 0px;">
+                                <p>
+                                    <li>Building this Website from Scratch!</li>
+                                </p>
+                            </div>
+                            <div class="h1_header" style="font-size:12pt;">Will <i>your project</i> be the next success story?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <body>
 </html>
