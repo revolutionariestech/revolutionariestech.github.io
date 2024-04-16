@@ -1,0 +1,43 @@
+/* Variable static colors */
+:root {
+    --sidebar_bg-color: rgb(60,60,60);
+    --sidebar_hover-color: #f1f1f1;
+    --sidebar_link-color: #9f9f9f;
+    --header_bg-color: #184958;
+    --revtech_green: rgb(2,255,0);
+    --card_bg_color: rgb(200,200,200);
+    --contact_color: rgb(150,150,150);
+    --navbar_bg-color: rgb(33, 34, 39);
+    --navbar_link-color: #f2f2f2;
+    --navbar_linkhover-color: rgb(162, 168, 187);
+}
+
+
+/* Nav Bar */
+.topnav {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+    background-color: var(--navbar_bg-color);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--navbar_link-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Make the links of the navbar change color when hovering on them */
+.topnav a:hover {
+    background-color: var(--navbar_linkhover-color);
+    color: var(--navbar_bg-color);
+}
+/* the active class highlights the current tab (link) in blue */
+.topnav a.active {
+    background-color: var(--revtech_green);
+    color: rgb(50,50,50);
+}
