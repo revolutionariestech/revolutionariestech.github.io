@@ -41,3 +41,7 @@
     background-color: var(--revtech_green);
     color: rgb(50,50,50);
 }
+
+body {
+    background-color: var(--card_bg_color);
+  }

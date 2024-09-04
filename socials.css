@@ -1,10 +1,11 @@
 a:hover{
-    color:fuchsia;
+    color:rgb(2,255,0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 head{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 /* Nav Bar */
 .topnav {
     overflow: hidden;
@@ -46,3 +47,8 @@ head{
     --navbar_link-color: #f2f2f2;
     --navbar_linkhover-color: rgb(162, 168, 187);
 }
+
+body {
+    background-color: var(--card_bg_color);
+  }
+
